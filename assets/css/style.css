@@ -1,0 +1,84 @@
+:root {
+    --header-container-background-color: #31343d;
+    --page-header-font-color: #31343d;
+    --page-header-font-background-color: #92cbce;
+    --nav-links-text-color: #92cbce;
+    --hero-text-background-color: #92cbce;
+    --hero-text-color: #31343d;
+    --right-column-text-color: #445876;
+    --right-column-border-color: #445876;
+    --about-me-text-color: #445876;
+    --work-project-border-color: #92cbce;
+    --contact-info-link-text-color: #31343d;
+    --contact-info-link-underline-color: #445977;
+    
+}
+
+/*
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+*/
+
+.header-container {
+    width: 100%;
+    height: 60px;
+    background-color: var(--header-container-background-color);
+}
+
+.page-header {
+    position: relative;
+    top: 11px;
+    background-color: var(--page-header-font-background-color);
+    color: var(--page-header-font-color);
+    width: 25%;
+    text-align: right;
+}
+
+.nav-links {
+    position: relative;
+    top: -40px;
+    right: 50px;
+    margin: 0px;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 8px;
+    color: var(--nav-links-text-color);
+}
+
+.hero {
+    position: relative;
+    top: -17px;
+}
+
+.hero img {
+    width: 100%;
+    height: 200px;
+}
+
+.hero-subtitle {
+    position: absolute;
+    top: 67%;
+    left: 85%;
+    background-color: var(--hero-text-background-color);
+    color: var(--hero-text-color);
+}
+
+.right-column-container {
+    position: absolute;
+    float: left;
+    height: 100%;
+}
+
+
