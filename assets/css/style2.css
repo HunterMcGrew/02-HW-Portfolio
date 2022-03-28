@@ -118,7 +118,10 @@ a {
     font-size: 14px;
 }
 
-
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .contact-info {
     display: flex;
