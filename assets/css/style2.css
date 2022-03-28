@@ -1,0 +1,163 @@
+:root {
+    --header-container-background-color: #31343d;
+    --page-header-font-color: #31343d;
+    --page-header-font-background-color: #92cbce;
+    --nav-links-text-color: #92cbce;
+    --hero-text-background-color: #92cbce;
+    --hero-text-color: #31343d;
+    --right-column-text-color: #445876;
+    --right-column-border-color: #445876;
+    --about-me-text-color: #445876;
+    --work-project-border-color: #92cbce;
+    --contact-info-link-text-color: #31343d;
+    --contact-info-link-underline-color: #445977;
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    font-family: 'Space Mono', monospace;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: var(--header-container-background-color);
+    width: 100%;
+}
+
+.header h1 {
+    color: var(--page-header-font-color);
+    background-color: var(--page-header-font-background-color);
+    text-align: right;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline;
+    position: relative;
+    right: 25%;
+    top: 12px;
+    padding-left: 5px;
+    padding-right: 5px;;
+}
+
+.header div ul li a {
+    color: var(--nav-links-text-color);
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    font-weight: 700;
+    box-shadow: inset 0 -0.2rem var(--nav-links-text-color);
+    transition: 0.6s;
+}
+
+.underlineFill2:hover {
+    box-shadow: inset 0 -4.6rem var(--nav-links-text-color);
+    color: var(--header-container-background-color);
+}
+
+
+.hero figure {
+    margin: 0%;
+}
+
+.hero figure img {
+    width: 100%;
+    height: 200px;
+}
+
+.hero div {
+    position: relative;
+    top: -75px;
+    left: 75%;
+    width: fit-content;
+}
+
+.hero div h2 {
+    background-color: var(--hero-text-background-color);
+    color: var(--hero-text-color);
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+}
+
+.side-about-me,
+.side-work,
+.side-contact {
+    min-width: 150px;
+    text-align: right;
+    border-right: solid;
+    margin-right: 20px;
+    border-color: var(--right-column-border-color);
+}
+
+.side-contact {
+    height: 90px;
+}
+
+.side-about-me h1,
+.side-work h1,
+.side-contact h1 {
+    margin: 0 10px 0 0;
+    color: var(--right-column-text-color);
+}
+
+.about-me-text {
+    font-size: 14px;
+}
+
+
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-info ul {
+    display: flex;
+    align-items: stretch;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.contact-info ul li {
+    position: relative;
+    top: 16px;
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-info ul li a {
+    color: var(--contact-info-link-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+}
+
+.underlineFill {
+    box-shadow: inset 0 -0.2rem var(--contact-info-link-underline-color);
+    transition: 0.6s;
+}
+
+.underlineFill:hover {
+    box-shadow: inset 0 -4.6rem var(--contact-info-link-underline-color);
+    color: white;
+}
+
