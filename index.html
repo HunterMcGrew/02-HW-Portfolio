@@ -13,123 +13,129 @@
 
 <body>
     
-<!-- Start Page Header Container -->
-    <div class="header-container">
-<!-- Start Page Header Start-->
-        <div class="page-header">
-            <header>
-                <h1>Hunter McGrew</h1>
-            </header>
-        </div> 
-<!-- End Page Header -->
-<!-- Start Header Navigation Links -->
-            <div class="navigation">
-                <nav>
-                    <ul class="nav-links">
-                        <li>
-                            <a href="#">About Me</a>
-                        </li>
-                        <li>
-                            <a href="#">Work</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact Me</a>
-                        </li>
-                        <li>
-                            <a href="#">Resume</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-<!-- End Header Navigation Links -->
-    </div>
-<!-- End Page Header Container -->
-<!-- Begin Image Under Header -->
-    <div class="hero">
-        <!-- Image goes here -->
-        <img src="./assets/images/pexels-simon-berger-1266810_resize.jpg" />
-        
-        <div class="hero-subtitle">
-            <p>
-                Something Here!
-            </p>
-        </div>
-    </div>
-<!-- End Image Under Header -->
+<!-- Header -->
 
-<!-- Begin Left Sidebar -->
-    <aside class="right-column-container">
+    <header class="header">
+        <h1>
+            Hunter McGrew
+        </h1>
+            <nav class="navigation">
+                <ul class="nav-links">
+                    <li>
+                        <a href="#about-me-text" class="underlineFill2">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work-projects" class="underlineFill2">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-info" class="underlineFill2">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="#" class="underlineFill2">Resume</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <div class="right-column">
-            <p class="right-column-headers">
-                About Me
-            </p>
-        </div>
+    </header>
 
-        <div class="right-column">
-            <p class="right-column-headers">
-                Work
-            </p>
-        </div>
+<!-- Header End-->
 
-        <div class="right-column">
-            <p class="right-column-headers">
-                Contact Me
-            </p>
-        </div>
+    <section class="hero">
+        <figure>
+            <img src="./assets/images/pexels-simon-berger-1266810_resize.jpg" alt="mountains and a sunset" />
+        </figure>
+        <section class="hero-subtitle">
+            <p>Cool Subtitle Here!</p>
+        </section>
+    </section>
 
-    </aside>
-<!-- End Left Sidebar -->
+<!-- Main Body Content-->
 
-<!-- Begin Main Body -->
-    <div class="main-container">
-        <main>
-<!-- Begin About Me Section -->
-           <section class="about-me-text">
+    <main class="content">
+
+        <!-- Begin About Me Section -->
+        <section class="flexbox">
+            <section class="sidebar">
+                <p>
+                    About <br> Me
+                </p>
+            </section>
+
+            <section class="about-me-text" id="about-me-text">
                
-            <p>Pokem ipsum dolor sit amet Charizard Anorith Voltorb Crawdaunt Throh Goldeen. Charmeleon Munchlax Scyther Meganium Torterra Scyther Amoonguss. V for victory they're comfy and easy to wear Unfezant Banette Monferno Grovyle Swellow. Vine Whip what kind of Pokemon are you Scyther Scraggy Absol I like shorts Excadrill. Rage Zoroark Spheal Elgyem Rising Badge Leavanny Haxorus.</p>
+                <p>Pokem ipsum dolor sit amet Charizard Anorith Voltorb Crawdaunt Throh Goldeen. Charmeleon Munchlax Scyther Meganium Torterra Scyther Amoonguss. V for victory they're comfy and easy to wear Unfezant Banette Monferno Grovyle Swellow. Vine Whip what kind of Pokemon are you Scyther Scraggy Absol I like shorts Excadrill. Rage Zoroark Spheal Elgyem Rising Badge Leavanny Haxorus.</p>
 
-            <p>Leaf Green Totodile to denounce the evils of truth and love Cleffa Pikachu Leafeon Tangela. Wing Attack Ho-oh Tornadus Hippopotas Dustox Magmortar Larvesta. Steel Arbok Drifblim Soul Badge Omastar Zapdos Lanturn. Viridian City Tropius Meditite Luxio Frillish Lugia Water. Dragon Rage Ursaring Victini Victreebel ullamco laboris nisi Hitmontop ullamco laboris nisi.</p>
+                <p>Leaf Green Totodile to denounce the evils of truth and love Cleffa Pikachu Leafeon Tangela. Wing Attack Ho-oh Tornadus Hippopotas Dustox Magmortar Larvesta. Steel Arbok Drifblim Soul Badge Omastar Zapdos Lanturn. Viridian City Tropius Meditite Luxio Frillish Lugia Water. Dragon Rage Ursaring Victini Victreebel ullamco laboris nisi Hitmontop ullamco laboris nisi.</p>
     
            </section>
+
+        </section>
+
 <!-- Begin Work Section -->
-           <section class="work">
-                <div class="work-projects">
 
-<!-- Work Projects Go Here-->
+        <section class="flexbox">
 
-                </div>
-           </section>
-<!-- Begin Contact Me Section -->
-           <section class="contact-info">
+            <section class="sidebar">
+
+            <p>
+                Work
+            </p>
+
+            </section>
+
+            <section class="work" id="work-projects">
+
+
+            </section>
+
+        </section>
+
+        <section class="flexbox">
+
+            <section class="sidebar contact">
+
+                <p>
+                    Contact <br> Me
+                </p>
+
+            </section>
+            
+            <section class="contact-info" id="contact-info">
+
                 <ul>
                     <li>
-                        <a href="tel:555-555-5555">555.555.5555</a>
+                        <a href="tel:555-555-5555" class="underlineFill">555.555.5555</a>
                     </li>
-
+        
                     <li>
-                        <a href="mailto:#">emailcomingsoon@website.com</a>
+                        <a href="mailto:#" class="underlineFill">Email</a>
                     </li>
-
+        
                     <li>
-                        <a href="https://github.com/HunterMcGrew">GitHub</a>
+                        <a href="https://github.com/HunterMcGrew" class="underlineFill">GitHub</a>
                     </li>
-
+        
                     <li>
-                        <a href="#">Twitter</a>
+                        <a href="#" class="underlineFill">Twitter</a>
                     </li>
-
+        
                     <li>
-                        <a href="#">Spotify</a>
+                        <a href="#" class="underlineFill">Spotify</a>
                     </li>
-
                 </ul>
-           </section>    
-        </main>
+        
+            </section>
 
-    </div>
-<!-- End Main Body -->
+        </section>
+
+    </main>
+
+<!-- Main Body Content End -->
 
 
-</body>
-</html>
+
+
+
+    </body>
+
+    </html> 
