@@ -1,141 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
-
 <body>
     
-<!-- Header -->
+    <header>
+    
+        <h1>Hunter McGrew</h1>
 
-    <header class="header">
-        <h1>
-            Hunter McGrew
-        </h1>
-            <nav class="navigation">
-                <ul class="nav-links">
-                    <li>
-                        <a href="#about-me-text" class="underlineFill2">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work-projects" class="underlineFill2">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-info" class="underlineFill2">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#" class="underlineFill2">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="header-nav">
+            <a href="#about-me-text" class="underlineFill2">About Me</a>
+            <a href="#work-projects" class="underlineFill2">Work</a>
+            <a href="#contact-info" class="underlineFill2">Contact Me</a>
+            <a href="#" class="underlineFill2">Resume</a>
+
+        </nav>
 
     </header>
-
-<!-- Header End-->
-
     <section class="hero">
-        <figure>
-            <img src="./assets/images/pexels-simon-berger-1266810_resize.jpg" alt="mountains and a sunset" />
+        <figure class="banner">
+
+            <img src="./assets/images/pexels-simon-berger-1266810_resize.jpg" alt="mountains and a sunset"  />
+
         </figure>
-        <section class="hero-subtitle">
-            <p>Cool Subtitle Here!</p>
-        </section>
+
+        <p class="banner-subtitle"> Cool Subtitle!</p>
+
     </section>
 
-<!-- Main Body Content-->
+    <main cass="container">
 
-    <main class="content">
+        <section class="about-me">
 
-        <!-- Begin About Me Section -->
-        <section class="flexbox">
-            <section class="sidebar">
+            <section class="about-me-header">
+                
+                <h2>About <br> Me</h2>
+            </section>
+
+            <section class="about-me-text">
                 <p>
-                    About <br> Me
+                Pokem ipsum dolor sit amet Charizard Anorith Voltorb Crawdaunt Throh Goldeen. Charmeleon Munchlax Scyther Meganium Torterra Scyther Amoonguss. V for victory they're comfy and easy to wear Unfezant Banette Monferno Grovyle Swellow. Vine Whip what kind of Pokemon are you Scyther Scraggy Absol I like shorts Excadrill. Rage Zoroark Spheal Elgyem Rising Badge Leavanny Haxorus.</p>
                 </p>
-            </section>
-
-            <section class="about-me-text" id="about-me-text">
-               
-                <p>Pokem ipsum dolor sit amet Charizard Anorith Voltorb Crawdaunt Throh Goldeen. Charmeleon Munchlax Scyther Meganium Torterra Scyther Amoonguss. V for victory they're comfy and easy to wear Unfezant Banette Monferno Grovyle Swellow. Vine Whip what kind of Pokemon are you Scyther Scraggy Absol I like shorts Excadrill. Rage Zoroark Spheal Elgyem Rising Badge Leavanny Haxorus.</p>
-
-                <p>Leaf Green Totodile to denounce the evils of truth and love Cleffa Pikachu Leafeon Tangela. Wing Attack Ho-oh Tornadus Hippopotas Dustox Magmortar Larvesta. Steel Arbok Drifblim Soul Badge Omastar Zapdos Lanturn. Viridian City Tropius Meditite Luxio Frillish Lugia Water. Dragon Rage Ursaring Victini Victreebel ullamco laboris nisi Hitmontop ullamco laboris nisi.</p>
-    
-           </section>
-
-        </section>
-
-<!-- Begin Work Section -->
-
-        <section class="flexbox">
-
-            <section class="sidebar">
-
-            <p>
-                Work
-            </p>
-
-            </section>
-
-            <section class="work" id="work-projects">
-
-
+                <p>
+                Leaf Green Totodile to denounce the evils of truth and love Cleffa Pikachu Leafeon Tangela. Wing Attack Ho-oh Tornadus Hippopotas Dustox Magmortar Larvesta. Steel Arbok Drifblim Soul Badge Omastar Zapdos Lanturn. Viridian City Tropius Meditite Luxio Frillish Lugia Water. Dragon Rage Ursaring Victini Victreebel ullamco laboris nisi Hitmontop ullamco laboris nisi.
+                </p>
             </section>
 
         </section>
 
-        <section class="flexbox">
+        <section class="work">
 
-            <section class="sidebar contact">
+            <section class="work-header">
+                <h2>Work</h2>
+            </section>
 
-                <p>
-                    Contact <br> Me
-                </p>
+            <div class="work-projects">
+<!-- work projects here -->
+                <div class="projects-wall">
+
+                    <figure class="projects-big">
+                        <a href="#">
+
+                            <div class="fade big" id="p1">
+                                <div class="projects-subtitle-big">
+                                    <h3>Surf Report</h3>
+                                    <p class="projects-p">MERN Stack</p>
+                                </div>
+                            </div>
+                        </a>
+                    </figure>
+                </div>
+
+                    <figure class="projects-small">
+                        <a href="#">
+
+                            <div class="fade small" id="p2">
+                                <div class="project-subtitle-small">
+                                    <h3>LED Wall</h3>
+                                    <p class="projects-p">Node/&nbsp;IoT</p>
+                                </div>
+                            </div>
+                        </a>
+                    </figure>
+
+
+                    <figure class="projects-small">
+                        <a href="#">
+                            <div class="fade small" id="p3">
+                                <div class="project-subtitle-small">
+                                    <h3>Calculator</h3>
+                                    <p class="projects-p">React/&nbsp;Javascript/&nbsp;CSS</p>
+                                </div>
+                            </div>
+                        </a>
+                    </figure>
+
+
+                    <figure class="projects-small">
+                        <a href="#">
+                            <div class="fade small" id="p4">
+                                <div class="project-subtitle-small">
+                                    <h3>Pastel Puzzles</h3>
+                                    <p class="projects-p">MERN Stack</p>
+                                </div>
+                            </div>
+                        </a>
+                    </figure>
+
+
+                    <figure class="projects-small">
+                        <a href="#">
+                            <div class="fade small" id="p5">
+                                <div class="project-subtitle-small">
+                                    <h3>Run Buddy</h3>
+                                    <p class="projects-p">HTML/&nbsp;CSS</p>
+                                </div>
+                            </div>
+                        </a>
+                    </figure>
+
+
+            </div>
+
+        </section>
+
+        <section class="contact-info">
+
+            <section class="contact-info-header">
+                <h2>Contact <br> Me</h2>
 
             </section>
-            
-            <section class="contact-info" id="contact-info">
 
-                <ul>
-                    <li>
-                        <a href="tel:555-555-5555" class="underlineFill">555.555.5555</a>
-                    </li>
-        
-                    <li>
-                        <a href="mailto:#" class="underlineFill">Email</a>
-                    </li>
-        
-                    <li>
-                        <a href="https://github.com/HunterMcGrew" class="underlineFill">GitHub</a>
-                    </li>
-        
-                    <li>
-                        <a href="#" class="underlineFill">Twitter</a>
-                    </li>
-        
-                    <li>
-                        <a href="#" class="underlineFill">Spotify</a>
-                    </li>
-                </ul>
-        
-            </section>
+            <nav class="contact-links">
+                <a href="tel:555-555-5555" class="underlineFill">555.555.5555</a>
+                <a href="mailto:#" class="underlineFill">Email</a>
+                <a href="https://github.com/HunterMcGrew" class="underlineFill">GitHub</a>
+                <a href="#" class="underlineFill">Twitter</a>
+                <a href="#" class="underlineFill">Spotify</a>
+
+            </nav>
 
         </section>
 
     </main>
 
-<!-- Main Body Content End -->
 
-
-
-
-
-    </body>
-
-    </html> 
+</body>
+</html>
