@@ -224,7 +224,7 @@ main {
 }
 
 #p5 {
-    background-image: url(../images/pexels-snapwire-37728.jpg);
+    background-image: url(../images/zoominLife.PNG);
     position: relative; 
     float: right;
 }
@@ -256,6 +256,10 @@ main {
     transition: 0.6s;
 }
 
+.mobileOnly {
+    display: none;
+}
+
 
 /* need more media queries for other aspects of page */
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -276,6 +280,7 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: 100%;
+        display: none;
     }
 
     .header-nav {
@@ -288,7 +293,9 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: fit-content;
+        display: none;
     }
+
 
 }
 
@@ -309,6 +316,7 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: 100%;
+    
     }
 
     .header-nav {
@@ -321,7 +329,9 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: fit-content;
+      
     }
+
 
 
 }
@@ -332,6 +342,32 @@ main {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+
+    .contact-links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        color: var(--contact-info-link-text-color);
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        width: 100%;
+    
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        color: var(--contact-info-link-text-color);
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        width: fit-content;
+      
+    }
 
 }
 
@@ -353,6 +389,7 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: 100%;
+    
     }
 
     .header-nav {
@@ -365,8 +402,8 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: fit-content;
+      
     }
-
 
 }
 
@@ -387,6 +424,7 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: 100%;
+    
     }
 
     .header-nav {
@@ -399,8 +437,8 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: fit-content;
+      
     }
-
 
 }
 
@@ -421,6 +459,7 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: 100%;
+    
     }
 
     .header-nav {
@@ -433,6 +472,7 @@ main {
         font-weight: 700;
         text-decoration: none;
         width: fit-content;
+      
     }
 
 
